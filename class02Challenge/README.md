@@ -1,10 +1,10 @@
 ## Class 02 : insertShiftArray
 
 [Back to main](https://github.com/Raghdsmadi/data-structures-and-algorithms) 
-*************************************
+******************************************
 
 ## Whiteboard 
-![image](./code_chall2.PNG)
+![whiteboard](./code_chall2.PNG)
 
 
 ## Approach & Efficiency
