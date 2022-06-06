@@ -8,3 +8,4 @@
 | class 02         | [insert Shift array](https://github.com/Raghdsmadi/data-structures-and-algorithms/pull/1) <br/>       |
 | Class 03         | [Binary Search](./class03Challenge/README.md)
 ---
+
