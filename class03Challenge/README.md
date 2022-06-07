@@ -4,7 +4,7 @@
 ******************************************
 
 ## Whiteboard 
-![whiteboard](./codechall3.PNG)
+![whiteboard](./chall4.PNG)
 
 **********************************************************
 ## Approach & Efficiency
