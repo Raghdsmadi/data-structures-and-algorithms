@@ -1,5 +1,7 @@
 class Node:
-
+    """
+    It will store the data and the reference to next node
+    """
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -10,7 +12,9 @@ class Node:
 
 
 class LinkedList:
-
+    """
+     It will have a sequence of nodes
+     """
     def __init__(self):
         self.head = None
 
@@ -31,18 +35,16 @@ class LinkedList:
             current.next = new_node
 
     def insert(self, value):
-
-        if value is None:
-            raise Exception("The provided values must not be (None) !")
-
-        if not isinstance(value, Node):
-            value = Node(value)
-
-        if self.head is None:
-            self.head = value
+        """
+              inserting the node at the beginning of the linked list
+              """
+        if self.head == None:
+            new_node = Node(value)
+            self.head = new_node
         else:
-            value.next = self.head
-            self.head = value
+            new_node = Node(value)
+            new_node.next = self.head
+            self.head = new_node
 
     def includes(self, value):
         current = self.head
@@ -65,3 +67,12 @@ class LinkedList:
         items += "Null"
         return items
 
+if __name__ == '__main__':
+    ll = LinkedList()
+    ll.append(5)
+    ll.append(10)
+    ll.insert(15)
+    print(ll.includes(5))
+    # print(ll.head.value)
+    # print(ll.head.next.value)
+    print(ll)
