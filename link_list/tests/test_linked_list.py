@@ -36,11 +36,14 @@ def test_str(ll):
 
     expected = '< 5 > --> < 10 > --> < 15 > --> Null'
 
+
     assert actual == expected
 
-def test_insert(LL):
-    actual = LL.head.value
-    expected = 7
+def test_insert():
+    ll1 = LinkedList()
+    ll1.insert(8)
+    actual = ll1.head.value
+    expected = 8
     assert actual == expected
 
 def test_includes_true(LL):
@@ -51,6 +54,32 @@ def test_includes_true(LL):
 
 def test_includes_false(LL):
     assert LL.includes(13) == False
+
+def test_insert_before(LL):
+    current = LL.head
+    while current:
+        if current.next.value == 7:
+            actual = current.value
+            break
+
+        current = current.next
+    # actual = LL.head.value
+    expected = 9
+    assert actual == expected
+
+
+def test_insert_after(LL):
+    current = LL.head
+    while current:
+        if current.value == 3:
+            actual =current.next.value
+            break
+
+        current = current.next
+    # actual = LL.head.value
+    expected = 14
+    assert actual == expected
+
 
 
 @pytest.fixture
@@ -74,5 +103,8 @@ def LL():
     LL.insert(3)
     LL.insert(5)
     LL.insert(7)
-    LL.includes(5)
+    print(LL)
+   # LL.includes(5)
+    LL.insertBefore(7,9)
+    LL.insertAfter(3,14)
     return LL

@@ -67,6 +67,48 @@ class LinkedList:
         items += "Null"
         return items
 
+    def insertBefore(self, value, new_value):
+        """
+        adds a new node with the new value before the first node
+        """
+
+        if self.includes(value):
+            current = self.head
+            if current.value == value:
+                newNode = Node(new_value)
+                newNode.next = current
+                self.head = newNode
+            else:
+                while current.next:
+                    if current.next.value == value:
+                        newNode = Node(new_value)
+                        newNode.next = current.next
+                        current.next = newNode
+                        break
+                    current = current.next
+        else:
+            return ("err")
+
+    def insertAfter(self, value, new_value):
+        """
+        adds a new node with the  new value  after the first node
+        """
+
+        if self.includes(value):
+            current = self.head
+            while current:
+                if current.value == value:
+                    newNode2 = Node(new_value)
+                    newNode2.next = current.next
+                    current.next = newNode2
+                    return
+                elif current.next == None:
+                    newNode2 = Node(new_value)
+                    current.next = newNode2
+                current = current.next
+        # else: return ("err")
+
+
 if __name__ == '__main__':
     ll = LinkedList()
     ll.append(5)
@@ -75,4 +117,7 @@ if __name__ == '__main__':
     print(ll.includes(5))
     # print(ll.head.value)
     # print(ll.head.next.value)
+    ll.insertBefore(15,9)
+    ll.insertAfter(10,14)
     print(ll)
+    print(ll.__str__())
