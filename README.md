@@ -8,3 +8,4 @@
 | class 02         | [insert Shift array](https://github.com/Raghdsmadi/data-structures-and-algorithms/pull/1) <br/>       |
 | Class 03         | [Binary Search](./class03Challenge/README.md)
 | Class 05         | [Linked List](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/link_list)
+| Class 06         | [Linked List_insertion](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/linked-list-06/link_list)
