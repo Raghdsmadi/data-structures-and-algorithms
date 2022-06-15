@@ -108,16 +108,40 @@ class LinkedList:
                 current = current.next
         # else: return ("err")
 
+    def kthFromEnd(self, k):
+        current = self.head
+        if k < 0:
+            return 'Please Enter a Positive Number!'
+        count = 0
+        while current.next:
+            count += 1
+            current = current.next
+        if count + 1 == k:
+            return 'the kth value is equal to the length of list'
+        if count < k:
+            return 'Invalid Error!!'
+        pos = count - k
+        current = self.head
+        for x in range(pos):
+            current = current.next
+        return current.value
+
+
 
 if __name__ == '__main__':
     ll = LinkedList()
-    ll.append(5)
-    ll.append(10)
-    ll.insert(15)
-    print(ll.includes(5))
+    # ll.append(5)
+    # ll.append(10)
+    # ll.insert(15)
+    # print(ll.includes(5))
     # print(ll.head.value)
     # print(ll.head.next.value)
-    ll.insertBefore(15,9)
-    ll.insertAfter(10,14)
+    # ll.insertBefore(15,9)
+    # ll.insertAfter(10,14)
     print(ll)
+    ll.insert(10)
+    ll.insert(20)
+    ll.insert(30)
+    ll.insert(40)
+    print(ll.kthFromEnd(0))
     print(ll.__str__())
