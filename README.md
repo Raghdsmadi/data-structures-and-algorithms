@@ -12,3 +12,5 @@
 | Class 07         | [Linked List_kth](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/linked-list-kth/link_list)
 | Class 08         | [Linked List_zip](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/link_list/linked-list-zip)
 | Class 10         | [stack_and_queue](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/stack_queue)
+| Class 12         | [stack_and_queue_shelter](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/stack_queue_animal_shelter)
+
