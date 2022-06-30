@@ -1,4 +1,4 @@
-## Class 11 : Stack and Queue
+## Class 12 : Stack and Queue shelter
 
 [Back to main](https://github.com/Raghdsmadi/data-structures-and-algorithms) 
 ******************************************
