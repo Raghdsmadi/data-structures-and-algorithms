@@ -1,4 +1,4 @@
-## Class 13 : Trees
+## Class 15 : Trees
 
 [Back to main](https://github.com/Raghdsmadi/data-structures-and-algorithms) 
 ******************************************
