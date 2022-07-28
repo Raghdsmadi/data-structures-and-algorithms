@@ -16,3 +16,4 @@
 | Class 13         | [stack_and_queue_brackets](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/stack_queue_brackets)
 | Class 15         | [Trees](https://github.com/Raghdsmadi/data-structures-and-algorithms/blob/main/trees/README.md)
 | Class 26        | [insertion sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/inseertion)
+| Class 27        | [merge sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/merge)
