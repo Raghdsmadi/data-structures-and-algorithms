@@ -17,3 +17,4 @@
 | Class 15         | [Trees](https://github.com/Raghdsmadi/data-structures-and-algorithms/blob/main/trees/README.md)
 | Class 26        | [insertion sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/inseertion)
 | Class 27        | [merge sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/merge)
+| Class 28        | [quick sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/Quick)
