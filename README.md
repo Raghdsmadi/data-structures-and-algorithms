@@ -19,3 +19,4 @@
 | Class 27        | [merge sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/merge)
 | Class 28        | [quick sort](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/sorting/Quick)
 | Class 30        | [hash_table](https://github.com/Raghdsmadi/data-structures-and-algorithms/tree/main/hash_table)
+| Class 31        | [hashmap_repeated_word](https://github.com/Raghdsmadi/data-structures-and-algorithms/pull/25)
